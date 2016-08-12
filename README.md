@@ -337,3 +337,86 @@ Interested in getting involved? We would like to help you!
 * [Hurricanezwf](https://github.com/Hurricanezwf)
 * [vashstorm](https://github.com/vashstorm)
 * [maodanp](https://github.com/maodanp)
+* 
+https://news.ycombinator.com/item?id=12273722
+Comments from Hacker NEws
+
+
+	Hacker News new | comments | show | ask | jobs | submit	login
+Frp: A fast reverse proxy to help you expose a local server to the internet (github.com)
+50 points by fatedier 2 hours ago | hide | past | web | 12 comments | favorite
+
+ 
+
+add comment
+
+
+	
+tckr 1 hour ago [-]
+
+I use https://ngrok.com/, it masks service ports and gives them unique domain names.
+reply
+	
+CyberShadow 11 minutes ago [-]
+
+Worth noting that ngrok is a non-free (trial-ware) service (all data is proxied through ngrok servers), whereas frp is self-hosted.
+reply
+	
+hollander 30 minutes ago [-]
+
+Is this something like ISA Server does? I've been looking for something like that without the price tag and this seems it!
+reply
+	
+jon-wood 1 hour ago [-]
+
+It also has an incredibly useful debug console for HTTP(S) which allows you to inspect requests as they come in, its absolutely priceless when working on webhooks.
+reply
+	
+FooBarWidget 36 minutes ago [-]
+
+Why is that useful? Doesn't your web app or web framework already log requests?
+reply
+	
+captn3m0 29 minutes ago [-]
+
+It logs the headers and request body along with the response for every single route. This means if the server sending you a webhook changes routes, or sends some extra content or does something unexpected, you have immediate visibility into it and can replay the request with a single click.
+Pretty nifty.
+reply
+	
+self_awareness 1 hour ago [-]
+
+I use `ssh -R` to my VPS with public IP. It's possible to forward any protocol with this option, HTTP, RDP, etc.
+reply
+	
+vincnetas 2 hours ago [-]
+
+There is a nice service called weaved.com which allows you to ssh to a machine (in my case raspberry Pi) without public IP address. I think it also supports HTTP.
+reply
+	
+adontz 1 hour ago [-]
+
+Looks like most of the features can be covered by nginx+iptables, so it will be great if authors will state what can't be done at all or in some specific case.
+reply
+	
+copperx 1 hour ago [-]
+
+I'd love to hear how to use nginx+iptables to traverse a NAT.
+reply
+	
+hollander 29 minutes ago [-]
+
+It's probably the ease of use?!
+reply
+	
+azzwacb9001 52 minutes ago [-]
+
+Very useful.
+reply
+
+
+
+
+Guidelines | FAQ | Support | API | Security | Lists | Bookmarklet | DMCA | Apply to YC | Contact
+
+Search:  
+
